@@ -1,13 +1,13 @@
 package com.example.demo.model.employee;
 
 public class Employee {
-    static final String name = "Peter";
-    static final String secondName = "Alex";
-    static final String sureName = "Black";
-    public String position;
-    public String email;
-    public String phoneNumber;
-    public String salary;
+    private final String name = "Peter";
+    private final String secondName = "Alex";
+    private final String sureName = "Black";
+    private String position;
+    private String email;
+    private String phoneNumber;
+    private String salary;
 
     public Employee() {
     }
